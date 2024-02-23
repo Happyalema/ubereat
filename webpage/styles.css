@@ -1,0 +1,80 @@
+*{
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0 ;
+
+}
+.hero-section{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.nav-bar{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-btn{
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+.nav-btn#sign{
+        background-color: black;
+        color: white;
+}
+nav h1{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+nav h1 span{
+    color: black;
+    font-size: 25px;
+}
+.ordering{
+    margin-left: 20px;
+    margin-top: 15rem;
+}
+.ordering h1{
+    font-size: 45px;
+    color: white;
+}
+.ordering div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.ordering input{
+    border: none;
+    padding: 5px 10px;
+    outline: none;
+    width: 20%;
+}
+.ordering input::placeholder{
+    font-size: 10px;
+    color: black;
+}
+.ordering button{
+    border: none;
+    padding: 5px;
+    font-weight: 600;
+}
+.ordering button#search{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.delivery-img{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
